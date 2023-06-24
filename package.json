@@ -1,6 +1,6 @@
 {
   "name": "@avalenti89/react-wmfp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "build/index.js",
   "module": "build/index.js",
   "types": "build/index.d.ts",
