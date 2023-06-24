@@ -134,7 +134,7 @@ export default class ReactWebpackModuleFederationPlugin extends optimize.ModuleC
       "react-intl",
       ...(this.options.includeSingletons ?? []),
     ].filter(
-      (singleton) => !this.options.excludeSingletons.includes(singleton)
+      (singleton) => !this.options.excludeSingletons?.includes(singleton)
     );
 
     return {
