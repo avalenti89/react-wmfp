@@ -1,0 +1,37 @@
+{
+  "name": "@avalenti89/react-wmfp",
+  "version": "0.1.0",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:avalenti89/react-wmfp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avalenti89/react-wmfp/issues"
+  },
+  "author": "avalenti89",
+  "contributors": [
+    {
+      "name": "Antonio Valenti",
+      "email": "valentiantonio89@gmail.com"
+    }
+  ],
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@avalenti89"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "@types/webpack": "^5.28.1",
+    "webpack": "^5.88.0",
+    "typescript": "^5.1.3"
+  }
+}
